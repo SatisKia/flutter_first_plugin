@@ -33,9 +33,9 @@ class _MyHomePageState extends State {
 
     return Scaffold(
       appBar: AppBar(
-          toolbarHeight: 0 // statusƒo[‚ðŽc‚µ‚ÄAppBar‚ðÁ‚·
+          toolbarHeight: 0 // statusãƒãƒ¼ã‚’æ®‹ã—ã¦AppBarã‚’æ¶ˆã™
       ),
-      body: SizedBox( // ‰¼‚ÌƒEƒBƒWƒFƒbƒg
+      body: SizedBox( // ä»®ã®ã‚¦ã‚£ã‚¸ã‚§ãƒƒãƒˆ
           width: contentWidth,
           height: contentHeight
       ),
