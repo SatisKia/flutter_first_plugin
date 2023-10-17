@@ -1,11 +1,7 @@
-import 'dart:async';
-
-import 'package:flutter/services.dart';
+import 'flutter_first_plugin_platform_interface.dart';
 
 class FlutterFirstPlugin {
-  static const MethodChannel _channel = MethodChannel('flutter_first_plugin');
-
-  static Future vibrate() async {
-    await _channel.invokeMethod( 'vibrate' );
+  Future vibrate() async {
+    await FlutterFirstPluginPlatform.instance.vibrate();
   }
 }
